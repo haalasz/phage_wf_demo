@@ -18,6 +18,8 @@ The pipeline processes each sample accession through the following stages:
     Keep genomes that are predicted to be high quality (HQ).
 6. **Annotate genomes**  
     Run Pharokka on selected HQ genomes.
+7. **Merge HQ + annotation summary**  
+    Merge HQ table with Pharokka MASH/Inphared top hits into per-accession merged TSV.
 
 ## Workflow Diagram
 
